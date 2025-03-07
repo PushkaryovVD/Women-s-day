@@ -76,7 +76,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
 	askNameInput.addEventListener("input", () => {
 		paper.querySelector(".name").textContent =
-			"Дорогая " + askNameInput.value + "!";
+			"Dear " + askNameInput.value + "!";
 		if (askNameInput.value.length < 2) {
 			submitName.style.display = "none";
 		} else {
